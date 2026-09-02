@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RenatalEventosApplication",
+            "request": "launch",
+            "mainClass": "com.rental.eventos.RenatalEventosApplication",
+            "projectName": "renatal_eventos"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RenatalEventosApplication<renatal_eventos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rental.eventos.renatal_eventos.RenatalEventosApplication",
+            "projectName": "renatal_eventos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=57118 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=renatal_eventos"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RenatalEventosApplication<renatal_eventos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rental.eventos.services.RenatalEventosApplication",
+            "projectName": "renatal_eventos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

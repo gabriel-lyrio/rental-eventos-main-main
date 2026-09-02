@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rental Eventos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="login">
+
+        <h1>Rental Eventos</h1>
+
+        <h2>Login</h2>
+
+        <form action="/login" method="post">
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Digite seu email"
+                required
+            >
+
+            <label for="senha">Senha</label>
+            <input
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite sua senha"
+                required
+            >
+
+            <button type="button" onclick="window.location.href='telainicial.html'">
+                Entrar
+            </button>
+
+        </form>
+
+        <p>
+            Não tem uma conta?
+            <a href="cadastro.html">Cadastre-se</a>
+        </p>
+
+        <p>
+            Voltar para a página inicial
+            <a href="telainicial.html">tela inicial</a>
+        </p>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
